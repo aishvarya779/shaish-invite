@@ -143,3 +143,6 @@ body {
   transform: translateY(-100px);
   z-index: 2;
 }
+.wedding-card {
+  height: 100vh;
+}
