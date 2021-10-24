@@ -1,12 +1,12 @@
-<div class="envelope">
+<div class="envelope" *ngIf="!showCard">
   <div class="back"></div>
-  <div class="letter">
-    <div class="text">Invitation</div>
+  <div class="letter" (click)="joinParty()">
+    <div class="text">Jin Wedding</div>
   </div>
   <div class="front"></div>
   <div class="top"></div>
   <div class="shadow"></div>
 </div>
-<div class="wedding-card">
-  <img src="./assets/images/card.jpg" alt="" />
+<div class="wedding-card" *ngIf="showCard">
+  <img src="src/assets/images/card.jpg" alt="" />
 </div>
